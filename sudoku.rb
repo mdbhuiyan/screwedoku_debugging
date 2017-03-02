@@ -16,7 +16,7 @@ class SudokuGame
 
     until pos && valid_pos?(pos)
       puts "Please enter a position on the board (e.g., '3,4')"
-      print "> "
+      print ">"
 
       begin
         pos = parse_pos(gets.chomp)
